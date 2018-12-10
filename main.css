@@ -1,0 +1,54 @@
+/* Tags */
+body {
+  font-family: 'Courier';
+  background-color: #d3c7b6;
+}
+header {
+  top: 0px;
+  left: 0px;
+}
+footer {
+  bottom: 0px;
+  left: 0px;
+}
+header, footer {
+  padding: .25%;
+  color: #d3c7b6;
+  font-size: 1.25vw;
+  text-align: center;
+  background-color: #564936;
+  z-index: 3;
+  width: 100vw;
+  display: block;
+  position: fixed;
+}
+header h1 {
+  font-size: 1.5vw;
+}
+header h1 span {
+  color: black;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+/* Classes */
+.arrow-box {
+  font-size: 6em;
+}
+.double-logo-box {
+  padding-top: 10vh;
+  text-align: center;
+  min-height: 25vh;
+}
+.arrow-box, .logo-box {
+  display: inline-block;
+}
+.logo-box {
+  margin: 1%;
+  height: 18em;
+}
+.info-box p {
+  font-size: 2vw;
+  text-align: center;
+}
