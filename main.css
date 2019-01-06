@@ -1,7 +1,11 @@
 /* Tags */
 body {
-  font-family: 'Courier';
+  font-family: 'Arial';
   background-color: #d3c7b6;
+}
+a {
+  color: #564936;
+  text-decoration: underline;
 }
 header {
   top: 0px;
@@ -10,11 +14,12 @@ header {
 footer {
   bottom: 0px;
   left: 0px;
+  margin-top: 10vh;
 }
 header, footer {
   padding: .25%;
   color: #d3c7b6;
-  font-size: 1.25vw;
+  font-size: 2.5vh;
   text-align: center;
   background-color: #564936;
   z-index: 3;
@@ -23,32 +28,36 @@ header, footer {
   position: fixed;
 }
 header h1 {
-  font-size: 1.5vw;
-}
-header h1 span {
-  color: black;
+  font-size: 3vh;
+  font-weight: lighter;
 }
 img {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 20em;
+  max-width: 20em;
 }
 /* Classes */
 .arrow-box {
   font-size: 6em;
 }
+
 .double-logo-box {
-  padding-top: 10vh;
+  margin-top: 15vh;
   text-align: center;
-  min-height: 25vh;
 }
+
 .arrow-box, .logo-box {
   display: inline-block;
 }
-.logo-box {
-  margin: 1%;
-  height: 18em;
+
+.info-box {
+  padding-bottom: 50px;
 }
+
 .info-box p {
-  font-size: 2vw;
+  font-size: 1.6em;
   text-align: center;
+}
+
+@media(max-width: 800px){
+
 }
